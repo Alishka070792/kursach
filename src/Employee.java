@@ -15,7 +15,33 @@ public class Employee {
 
     public Employee (String fullName, int department, int salary) {
         this.id = countId++;
-
+        this.fullName = fullName;
+        this.department = department;
+        this.salary = salary;
     }
-
+    public String getFullName() {
+        return fullName;
+    }
+    public int getDepartment() {
+        return department;
+    }
+    public int getSalary () {
+        return salary;
+    }
+    public int getId () {
+        return id;
+    }
+    public void setDepartment(int department) {
+        this.department = department;
+    }
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+    @Override
+    public boolean equals (Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o ==)
+    }
 }
