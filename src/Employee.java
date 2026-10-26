@@ -70,7 +70,5 @@ public class Employee {
         System.out.println(fullName + " " + salary);
     }
 
-    public void printShortInfo() {
-        System.out.println(fullName + " " + salary);
-    }
+
 }

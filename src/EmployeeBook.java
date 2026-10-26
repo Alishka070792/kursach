@@ -104,6 +104,14 @@ public class EmployeeBook {
         }
         return false;
     }
+    public String getEmployeeById(int id){
+        for (Employee e : book){
+            if (e != null && e.getId() == id){
+                System.out.println(e.getFullName());
+            }
+        }
+        return "Сотрудника с таким id нет";
+    }
         }
 
 
