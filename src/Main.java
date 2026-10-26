@@ -25,5 +25,33 @@ public class Main {
         employeeBook.addEmployeeToList(person6);
         employeeBook.addEmployeeToList(person7);
         employeeBook.addEmployeeToList(person8);
+
+        employeeBook.showEmployeeBook();
+        System.out.println();
+
+        employeeBook.averageSalary();
+        System.out.println();
+
+        employeeBook.taxedSalary("PROPORTIONAL");
+        System.out.println();
+
+        employeeBook.taxedSalary("PROGRESSIVE");
+        System.out.println();
+
+        employeeBook.increaseSalaryByIndex(3,  2);
+        System.out.println();
+
+        employeeBook.getEmployeeBySalary(2, 90000);
+        System.out.println();
+
+        employeeBook.getListEmployeeBySalary(250000, 2);
+        System.out.println();
+
+        employeeBook.hasEmployee(person);
+        System.out.println();
+
+        employeeBook.getEmployeeById(1);
     }
+
+
 }
