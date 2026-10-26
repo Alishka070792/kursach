@@ -15,5 +15,15 @@ public class Main {
 
 
         EmployeeBook employeeBook = new EmployeeBook();
+
+        employeeBook.addEmployeeToList(person);
+        employeeBook.addEmployeeToList(person1);
+        employeeBook.addEmployeeToList(person2);
+        employeeBook.addEmployeeToList(person3);
+        employeeBook.addEmployeeToList(person4);
+        employeeBook.addEmployeeToList(person5);
+        employeeBook.addEmployeeToList(person6);
+        employeeBook.addEmployeeToList(person7);
+        employeeBook.addEmployeeToList(person8);
     }
 }
