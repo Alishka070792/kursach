@@ -42,6 +42,10 @@ public class Employee {
         if (this == o) {
             return true;
         }
-        if (o ==)
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        Employee employee = (Employee) o;
+        return id == employee.id && Objects.equals(fullName, employee.fullName) && salary == employee.salary;
     }
 }

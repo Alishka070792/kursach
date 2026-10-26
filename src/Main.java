@@ -13,5 +13,7 @@ public class Main {
         Employee person7 = new Employee("Александров Александр Александрович" , 2, 111);
         Employee person8 = new Employee("Павлов Павел Павлович" , 4, 222);
 
+
+        EmployeeBook employeeBook = new EmployeeBook();
     }
 }
